@@ -7,6 +7,6 @@ describe('addTasks and deleteTasks functions test', () => {
     });
 
     test("throws an error", () => {
-        expect(stringLength("javascript")).toBeGreaterThan(11);
+        expect(stringLength("javascript")).toB(11);
     });
 });
